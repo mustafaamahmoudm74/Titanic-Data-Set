@@ -1,0 +1,35 @@
+Work on the Titanic Dataset [on Moodle]
+
+Task #1:
+
+1. Map 'Sex' and 'Embarked' to numerical values. [3 Marks for Sex column, 3 Marks for Embarked column]
+Sex: [Female:0, Male:1] - Embarked: [S:0, C:1, Q:2]
+
+2. Plot Sex & Survived in bar chart. [2 Marks]
+
+Task #2:
+1. Extract title from name of the passenger in column `Name` and put the result in `Title`. [6 Marks]
+2. Plot Title & Survived in bar chart. [2 Marks]
+
+Task #3:
+1. Plot the correlation between all numeric columns and draw a heatmap. [4 Marks]
+2. Number of missing values in all columns. [2 Marks]
+3. Drop the column with the highest number of nulls. [2 Marks]
+
+Task #4:
+1. Count nulls in all columns and drop the column with the highest number of nulls. [4 Marks]
+2. Apply MinMaxScaler to the `Fare` column. [4 Marks]
+
+Task #5:
+1. Apply k-means with k = 4 on the titanic dataset from seaborn, on columns (age, fare, pclass).
+[6 Marks]
+2. Print the number of data points in each cluster. [2 Marks]
+
+Task #6:
+1. Apply linear regression on the titanic dataset with 80% train data and 20% test data. [6 Marks]
+2. Show the accuracy as --.--%. [2 Marks]
+
+Task #7:
+1. Remove duplicates in the dataset. [2 Marks]
+2. Convert `Name` column into lower. [4 Marks]
+3. Remove rows with null in `Cabin`. [2 Marks]
